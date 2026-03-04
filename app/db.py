@@ -6,7 +6,8 @@ from sqlalchemy.dialects.postgresql import UUID
 from sqlalchemy.ext.asyncio import AsyncSession ,create_async_engine , async_sessionmaker
 from sqlalchemy.orm import DeclarativeBase , relationship
 from datetime import datetime
-from fastapi_users.db import SQLAlchemyBaseUserTableUUID
+from fastapi_users_db_sqlalchemy import SQLAlchemyBaseUserTableUUID
+
 from fastapi_users.db import SQLAlchemyUserDatabase
 
 
